@@ -1,5 +1,9 @@
-// Script utilizado leer el archivo de configuracion y generar el json que le debe pasar
-// el flujo de nube al flujo de escritorio
+/*  Script utilizado leer el archivo de configuracion y generar el json que le debe pasar
+    el flujo de nube al flujo de escritorio.
+    
+    El archivo de configuracion debe tener en un hoja (Nombre configurable), 
+    una tabla (nombre configurable) con 3 columnas (Nombre, Valor, Tipo) y todas las variables
+*/
 
 function main(workbook: ExcelScript.Workbook): string {
     // Obtiene la primera tabla de la hoja Generales
